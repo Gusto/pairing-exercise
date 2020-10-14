@@ -1,6 +1,10 @@
 
 # Pair Programming Workshop Starter
 
+## Can this repo be deleted?
+
+This repo was forked from Wenley Tong's [personal repo](https://github.com/wenley/pairing-exercise) to be used in the October 2020 Engineering Bootcamp run for new grads. After this bootcamp finishes, this repo is safe to delete as it can always be re-forked for future bootcamps.
+
 ## Background
 
 Claim: Pair Programming is a skill. Like any other skill (playing an instrument, public speaking), it can and should be practiced deliberately, both in isolation and in tandem with other related skills.
