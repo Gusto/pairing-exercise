@@ -1,5 +1,10 @@
 exports.Game = {
-  step: function() {
-    return null;
+  step: function(cells) {
+    const next_cells = cells;
+    return next_cells;
+  },
+
+  convertToString: function(cells) {
+    return "";
   }
 };
