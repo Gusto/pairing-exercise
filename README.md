@@ -46,15 +46,6 @@ However, remember: **solving the problem is NOT the main purpose of the exercise
 
 Instead, the goal is to think and reflect about how the collaboration dynamic feels. In each session, you will use a different collaboration dynamic to solve the problem -> you should think about how different setups for pairing each operate. See the next section for a progression of pairing styles.
 
-Hints for getting started with coding:
-- If you want/need to simplify the problem to get started (e.g. only a 10 x 10 grid, change the exact rules), do it! If you finish early with these simplifications, try to get back to the original prompt
-- You should write some tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
-- You should probably write at least two functions:
-  1. `step` to advance time by one tick
-  2. `convert_to_string` to produce a multi-line String to graphically show the grid. (This is much easier than reading nested arrays of integers or booleans, especially once your test cases get more complicated).
-- You can introduce more helper functions and test them separately
-  - This goes contrary to the idea of only testing the public interface, but is helpful to practice writing small tests
-
 ## Styles of Pairing
 
 ### Unguided pairing
@@ -109,3 +100,13 @@ To make your code changes, you should be editing:
 - `tests/game-test.js`
 
 To see if your code is working, run your tests again with `yarn test`
+
+### Hints
+
+- If you want/need to simplify the problem to get started (e.g. only a 10 x 10 grid, change the exact rules), do it! If you finish early with these simplifications, try to get back to the original prompt
+- You should write some tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
+- You should probably write at least two functions:
+  1. `step` to advance time by one tick
+  2. `convert_to_string` to produce a multi-line String to graphically show the grid. (This is much easier than reading nested arrays of integers or booleans, especially once your test cases get more complicated).
+- You can introduce more helper functions and test them separately
+  - This goes contrary to the idea of only testing the public interface, but is helpful to practice writing small tests
