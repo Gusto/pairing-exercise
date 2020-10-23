@@ -88,18 +88,22 @@ Hints for getting started with coding:
 0. Install Ruby 2.7.1
 1. Install bundler (`gem install bundler`)
 2. Run `bundle`
-3. Run `rspec spec/conway_game_spec.rb`
+3. Run `rspec spec/conway_game_spec.rb`. There should be one failed test
 
 To make your code changes, you should be editing:
 - `lib/conway_game.rb`
 - `spec/conway_game_spec.rb`
 
+To see if your code is working, run your tests again with `rspec spec/conway_game_spec.rb`
+
 ### Javascript
 
 0. Install yarn (`brew install yarn`)
 1. Run `yarn`
-2. Run `yarn test`
+2. Run `yarn test`. There should be one failed test.
 
 To make your code changes, you should be editing:
 - `src/game.js`
 - `tests/game-test.js`
+
+To see if your code is working, run your tests again with `yarn test`
