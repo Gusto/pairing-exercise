@@ -78,16 +78,16 @@ Instead, the goal is to think and reflect about how the collaboration dynamic fe
 
 ### Ruby
 
-0. Install Ruby 2.7.1
+0. Install or Change to Ruby 2.7.1 (`chruby 2.7.1`)
 1. Install bundler (`gem install bundler`)
 2. Run `bundle`
-3. Run `rspec spec/conway_game_spec.rb`. There should be one failed test
+3. Run `bundle exec rspec spec/conway_game_spec.rb`. There should be one failed test
 
 To make your code changes, you should be editing:
 - `lib/conway_game.rb`
 - `spec/conway_game_spec.rb`
 
-To see if your code is working, run your tests again with `rspec spec/conway_game_spec.rb`
+To see if your code is working, run your tests again with `bundle exec rspec spec/conway_game_spec.rb`
 
 ### Javascript
 
