@@ -51,7 +51,7 @@ Hints for getting started with coding:
 - You should write some tests to verify correctness. The Wikipedia page has [some good test cases](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns).
 - You should probably write two functions:
   1. `step` to advance time by one tick
-  2. `show` to produce a multi-line String to graphically show the internal state. (Trust me, this is much easier than reading nested arrays of integers or booleans; it also gives a public interface to verify the correctness of `step`).
+  2. `convert_to_string` to produce a multi-line String to graphically show the grid. (This is much easier than reading nested arrays of integers or booleans, especially once your test cases get more complicated).
 
 ## Styles of Pairing
 
