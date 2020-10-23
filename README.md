@@ -20,21 +20,6 @@ Supported Languages:
 
 More languages will be added at request.
 
-## Getting Started
-
-### Ruby
-
-0. Install Ruby 2.7.1
-1. Install bundler (`gem install bundler`)
-2. Run `bundle`
-3. Run `rspec spec/conway_game_spec.rb`
-
-### Javascript
-
-0. Install yarn (`brew install yarn`)
-1. Run `yarn`
-2. Run `yarn test`
-
 ## Introduction to the Workshop
 
 In this workshop, you will implement the same problem multiple times, with different partners and different modes of pairing. After each session, you should either throw away all the code you wrote (preferable), or commit and forget the code you wrote, starting from a clean slate each time.
@@ -95,3 +80,26 @@ Hints for getting started with coding:
 
 ### Silent TDD Tennis
 - You may talk with your partner for at most 2 minutes at the beginning (or not at all! _Challenge Mode_). Afterwards, no talking and proceed with TDD Tennis as usual.
+
+## Getting Started
+
+### Ruby
+
+0. Install Ruby 2.7.1
+1. Install bundler (`gem install bundler`)
+2. Run `bundle`
+3. Run `rspec spec/conway_game_spec.rb`
+
+To make your code changes, you should be editing:
+- `lib/conway_game.rb`
+- `spec/conway_game_spec.rb`
+
+### Javascript
+
+0. Install yarn (`brew install yarn`)
+1. Run `yarn`
+2. Run `yarn test`
+
+To make your code changes, you should be editing:
+- `src/game.js`
+- `tests/game-test.js`
